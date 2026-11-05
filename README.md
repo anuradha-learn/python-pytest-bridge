@@ -17,6 +17,10 @@ A small project for learning Git, Python and pytest by building and testing a ca
 
 Run a script from the project folder with `python cart_app/FILE.py`.
 
+## Working in a team
+
+Do your work on a branch. Merge it into `main` when it is ready and reviewed.
+
 ## Lessons are tagged
 
 Every lesson ends on a tag named `b01`, `b02` and so on. To start from the end of lesson N, check out tag `bNN`
