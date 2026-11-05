@@ -1,10 +1,20 @@
-# storing information
-item_name="Notebook"
-price=12.5
-quantity=4
+#define list of cart items prices
+prices = [12.5, 4.5, 30.0, 15.5]
 
-#maths operation - calculating total price
-line_total=price*quantity
+# add up all the prices with loop
+total=0
+for price in prices:
+    total=total+price
+# print("before ",total)
 
-#show the result
-print(f"{item_name}: {quantity} x {price}={line_total}")
+#decision
+if total >= 50:
+    discount_percent=10
+    total=(1-discount_percent/100)*total
+else:
+    discount_percent=0
+
+print(f"{len(prices)} items ,total after {discount_percent} discount ={total}")
+
+
+
