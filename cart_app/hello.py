@@ -1,1 +1,0 @@
-print("Cart total demo")
