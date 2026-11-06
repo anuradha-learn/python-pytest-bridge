@@ -19,6 +19,6 @@ def cart_total(items,percent):
 
 
 
-items=[{"name":"Notebook","price":12.5,"quantity":3},{"name":"pen","price":2.5,"quantity":100}]
+# items=[{"name":"Notebook","price":12.5,"quantity":3},{"name":"pen","price":2.5,"quantity":100}]
 
-print(cart_total(items,10))
+# print(cart_total(items,10))
